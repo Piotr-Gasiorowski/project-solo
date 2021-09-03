@@ -1,0 +1,22 @@
+/* Colors */
+$sidebar-color: #000000;
+$sidebar-color-hover: #333333;
+$section-color: #F5F5F2;
+$body-color: #E3E3E3;
+$font-color: #979797;
+$button-hover-color: #FFA200;
+$button-color: #F58220;
+
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  background: $body-color;
+  color: $font-color;
+  overflow-y: scroll;
+}
